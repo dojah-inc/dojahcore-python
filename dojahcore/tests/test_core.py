@@ -1,0 +1,1 @@
+""" Script defined to test the Core class """
