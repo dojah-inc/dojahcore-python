@@ -110,12 +110,12 @@ class General(DojahBase):
         
         """
 
-        query = {
+        body = {
             'plan': plan,
             'destination':destination
         }
 
-        response  =  cls().requests.get('/api/v1/purchase/data',query=query)
+        response  =  cls().requests.post('/api/v1/purchase/data',body=body)
 
         return response
 

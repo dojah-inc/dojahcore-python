@@ -11,7 +11,7 @@ Identification
 
 from dojahcore.dojah import Dojah
 
-api =  Dojah
+api =  Dojah()
 
 try:
     bvn_result  =  api.identification.validate_bvn(bvn, first_name, last_name,dob)
@@ -95,7 +95,7 @@ except Exception as e:
 
 from dojahcore.dojah import Dojah
 
-api =  Dojah
+api =  Dojah()
 
 try:
     bvn_result  =  api.identification.lookup_bvn_advance(bvn)

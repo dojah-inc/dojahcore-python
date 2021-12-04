@@ -12,7 +12,7 @@ class DojahBase:
         api_url  =  core.API_URL
         api_id  =  kwargs.get('app_id',core.APP_ID)
         
-         #TODO Determine the URL based on the key type
+         
         headers  =  {'Authorization': api_key, 'AppId': api_id}
         arguments  = {"headers":headers, "api_url": api_url}
 
@@ -30,6 +30,7 @@ class DojahRequests(object):
         """
         self.BASE_URL  =  api_url
         self.headers  =  headers
+        
 
     def _request(self, method, uri, **kwargs):
 

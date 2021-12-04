@@ -1,6 +1,9 @@
 """ Script contains all the constants used in the application """
 
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 API_KEY = os.getenv(
     'DOJAH_API_KEY',
