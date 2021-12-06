@@ -7,7 +7,7 @@ Python plugin for [Dojah](https://dojah.io/)
 ## Installation
 
 ```shell
-pip install -i https://test.pypi.org/simple/ dojahcore
+pip install dojahcore
 ```
 The dojah library reads the configuration keys from your .env file, ensure to add the following in your .env file
 
