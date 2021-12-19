@@ -41,9 +41,19 @@ dojah_api.financial.account_information(account_id)
 dojah_api.identification.validate_bvn(bvn)
 
 ```
-> The docs folder contains motre detailed examples of the services offered.
+> The docs folder contains more detailed examples of the services offered.
 
 ## Other services supported Includes.
+
+### General Services
+
+- Resolve Nuban
+- Get Banks
+- Resolve Card Bin
+- Airtime Purchase
+- Data Purchase 
+- Get Data plans
+- Get Dojah Balance
 
 ### Financial Services
 - Account Information
@@ -55,15 +65,6 @@ dojah_api.identification.validate_bvn(bvn)
 - Send Transactions
 - Update Transactions
 
-### General Services
-
-- Resolve Nuban
-- Get Banks
-- Resolve Card Bin
-- Airtime Purchase
-- Data Purchase 
-- Get Data plans
-- Get Dojah Balance
 
 ### Identification Services
 
