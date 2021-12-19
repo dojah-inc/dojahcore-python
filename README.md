@@ -41,5 +41,64 @@ dojah_api.financial.account_information(account_id)
 dojah_api.identification.validate_bvn(bvn)
 
 ```
+> The docs folder contains motre detailed examples of the services offered.
 
-## Please reference the docs folder for other methods
+## Other services supported Includes.
+
+### Financial Services
+- Account Information
+- Account Transactions
+- Account Subscriptions
+- Earning Structure
+- Spending Pattern
+- Categorize Transactions
+- Send Transactions
+- Update Transactions
+
+### General Services
+
+- Resolve Nuban
+- Get Banks
+- Resolve Card Bin
+- Airtime Purchase
+- Data Purchase 
+- Get Data plans
+- Get Dojah Balance
+
+### Identification Services
+
+- Validate BVN
+- Lookup BVN Basic
+- Lookup BVN Advance
+- Lookup Nuban
+- Lookup NIN
+- Lookup PhoneNumber 
+- Lookup VIN
+- Lookup Driver Licence
+- Lookup CAC
+- Lookup TIN
+
+### Verification Services 
+
+- Verify Age
+- Verify BVN with Selfie
+- Verify NIN with Selfie
+- Verify PhotoId with Selfie
+
+
+### Messaging Services
+- Register Sender ID
+- Send Message
+- Fetch Sender ID
+- Get Message Status
+- Send OTP
+- Validate OTP
+
+
+### Wallet Services
+
+- Create Wallet
+- Get Wallet Transactions
+- Get Wallet Details
+- Transfer funds 
+- Get Transaction Details
